@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1 id="title">BATALLA NAVAL</h1>
+    <p id="prueba"></p>
     <div id="contenedor">
         <div id="botones">
             <button onclick="visualizarPiratas()">Visualizar piratas</button>
@@ -57,7 +58,29 @@
         </div>
 
         <div id="simularBatalla" hidden>
-            
+            <h3>Simulación de batalla</h3>
+            <p id="primerP"></p>
+            <div id="mostrarVS" hidden>
+                <div id="navio1">
+                    <table id="tabla1">
+                        <thead>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <h3 id="vs">VS</h3>
+                <div id="navio2">
+                    <table id="tabla2">
+                        <thead>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <button id="batalla" hidden onclick="empezar()">Empezar batalla</button>
+            <h3 id="resultado"></h3>
         </div>
     </div>
     <script src="Piratas.js"></script>

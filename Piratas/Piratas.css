@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
@@ -38,7 +38,7 @@ h3 {
     background-color: rgba(255, 255, 255, 0.522);
     text-align: center;  
     padding: 15px;
-    border-radius: 5%;
+    border-radius: 17px;
 }
 
 th {
@@ -68,3 +68,32 @@ button {
 #eliminarPiratasTabla td:nth-child(3) {
     text-align: center; /*Poder alinear unicamente los botones en el centro de la celda*/
 }
+
+#mostrarVS {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #navio1 {
+    width: 40%;
+    box-sizing: border-box;
+  }
+  
+  #navio2 {
+    width: 40%;
+    box-sizing: border-box;
+  }
+  
+  #vs {
+    text-align: center;
+  }
+
+  #batalla {
+    margin-top: 35px;
+  }
+
+  #resultado {
+    margin-top: 20px;
+    text-align: center;
+  }
