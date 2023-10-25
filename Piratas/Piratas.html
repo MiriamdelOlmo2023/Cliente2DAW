@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Batalla naval</title>
+    <link rel="stylesheet" type="text/css" href="Piratas.css">
+</head>
+<body>
+    <h1 id="title">BATALLA NAVAL</h1>
+    <div id="contenedor">
+        <div id="botones">
+            <button onclick="visualizarPiratas()">Visualizar piratas</button>
+            <button onclick="añadirPiratasMostrar()">Añadir piratas</button>
+            <button onclick="eliminarPirata()">Eliminar piratas</button>
+            <button onclick="simularBatalla()">Simular batalla</button>
+        </div>
+
+        <div id="visualizarPiratas" hidden>
+            <table id="visualizarPiratasTabla">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div id="añadirPirata" hidden>
+            <h3>Añadir pirata:</h3>
+            <select id="añadirPirataSelect">
+                <option value="Artillero" selected>Artillero</option>
+                <option value="Cañonero">Cañonero</option>
+                <option value="Pistolero">Pistolero</option>
+            </select>
+
+            <input type="text" placeholder="Nombre del pirata" id="nombreNuevoPirata">
+            <button id="botonAñadirPirata" onclick="añadirPirata()">Añadir</button>
+        </div>
+
+        <div id="eliminarPirata" hidden>
+            <table id="eliminarPiratasTabla">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div id="simularBatalla" hidden>
+            
+        </div>
+    </div>
+    <script src="Piratas.js"></script>
+</body>
+</html>
