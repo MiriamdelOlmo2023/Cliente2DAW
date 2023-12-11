@@ -681,13 +681,3 @@ const controller = {
 };
 
 controller.init();
-
-
-
-/*
-generar carrera con boton/hora, en base a la cuota avanzarán los corredores y asignar dinero ganado
-al terminar carrera, modificar boton a mostrar clasificacion
-mostrar clasificacion (MODAL): muestra top 3, dist recorrida(?), dinero ganado
-al cerrar el modal, crear nueva carrera y borrar la terminada prueba()
-
-*/
